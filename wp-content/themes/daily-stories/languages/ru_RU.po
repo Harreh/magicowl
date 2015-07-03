@@ -1,0 +1,184 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Daily Stories\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-06 13:35+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: plugin@bestwebsoft.com <plugin@bestwebsoft.com>\n"
+"Language-Team: bestwebsoft.com <wp_theme@bestwebsoft.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: footer.php:29
+msgid "Designed with love by"
+msgstr "Сделано с любовью"
+
+#: footer.php:29
+msgid "and"
+msgstr "и"
+
+#: functions.php:70
+msgid "Header Menu"
+msgstr "Меню в хедере"
+
+#: functions.php:78
+msgid "Right sidebar"
+msgstr "Правый сайдбар"
+
+#: functions.php:86
+msgid "Footer sidebar"
+msgstr "Нижний сайдбар"
+
+#: functions.php:105
+msgid "Choose file"
+msgstr "Выбрать файл"
+
+#: functions.php:106
+msgid "File is not selected."
+msgstr "Файл не выбран."
+
+#: functions.php:132
+msgid "Home"
+msgstr "Главная"
+
+#: functions.php:149 functions.php:211 functions.php:235
+msgid "Page"
+msgstr "Страница"
+
+#: functions.php:163
+msgid "Category Archives:"
+msgstr "Архив категорий:"
+
+#: functions.php:188
+msgid "Tag Archives:"
+msgstr "Архив тегов:"
+
+#: functions.php:191 functions.php:195 functions.php:199
+msgid "Archive"
+msgstr "Архив"
+
+#: functions.php:192
+msgid "Daily Archives:"
+msgstr "Архив за день:"
+
+#: functions.php:196
+msgid "Monthly Archives:"
+msgstr "Архив за месяц:"
+
+#: functions.php:200
+msgid "Yearly Archives:"
+msgstr "Архив за год:"
+
+#: functions.php:203
+msgid "Search Results"
+msgstr "Результаты поиска"
+
+#: functions.php:213
+msgid "For:"
+msgstr "Для: "
+
+#: functions.php:216
+msgid "404 Page"
+msgstr "Страница 404"
+
+#: functions.php:217
+msgid "Page Not Found"
+msgstr "Страница не найдена"
+
+#: functions.php:257
+msgid "read more"
+msgstr "Читать далее"
+
+#: functions.php:269
+msgid "Pingback:"
+msgstr "Пингбеки:"
+
+#: functions.php:269 functions.php:285 index.php:23 image.php:20 page.php:21
+#: search.php:24
+msgid "Edit"
+msgstr "Редактировать"
+
+#: functions.php:281
+msgid "Your comment is awaiting moderation"
+msgstr "Ваш комментарий ожидает проверки"
+
+#: functions.php:284 index.php:20 single.php:18 search.php:20
+msgid "in"
+msgstr "в"
+
+#: index.php:32 image.php:35 single.php:29 page.php:24
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: index.php:49
+msgid "Previous posts"
+msgstr "Предыдущие посты"
+
+#: index.php:52
+msgid "Next posts"
+msgstr "Следующие посты"
+
+#: index.php:59 404.php:12 search.php:40
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: comments.php:14
+msgid "One thought on"
+msgstr "Один комментарий к"
+
+#: comments.php:14
+msgid "thoughts on"
+msgstr "комментариев к"
+
+#: comments.php:18 comments.php:29
+msgid "Previous comments"
+msgstr "Предыдущие комментарии"
+
+#: comments.php:20 comments.php:31
+msgid "Next comments"
+msgstr "Следующие комментарии"
+
+#: comments.php:36
+msgid "Comments are closed."
+msgstr "Комментарии отключены. "
+
+#: image.php:42
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: image.php:43
+msgid "Next"
+msgstr "Следующий"
+
+#: single.php:45
+msgid "Previous post"
+msgstr "Предыдущий пост"
+
+#: single.php:48
+msgid "Next post"
+msgstr "Следующий пост"
+
+#: 404.php:15
+msgid "The page you are looking for is not found. Maybe try a search?"
+msgstr ""
+"Запрашиваемая страница не найдена. Попробуйте воспользоваться поиском. "
+
+#: header.php:46
+msgid "Menu"
+msgstr "Меню"
+
+#: header.php:48
+msgid "Skip to content"
+msgstr "Перейти к контенту"
