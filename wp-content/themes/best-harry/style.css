@@ -1161,18 +1161,8 @@ a.comment-edit-link:hover {
 .best-p-post-data a {
 	text-decoration: none;
 }
-.best-post {
-	border-bottom: 1px solid #777;
-	margin-bottom: 42px;
-	padding-bottom: 40px;
-	max-width: 656px;
-	width: 100%;
-}
-.best-post:first-child {
-	border-bottom: 1px solid #777;
-	margin-bottom: 59px;
-	padding-bottom: 41px;
-}
+
+
 .best-footer-sidebar-content .best-witget-right-sidebar {
 	margin: 32px 10px 51px 0;
 	color: #ddd;
@@ -1497,6 +1487,7 @@ caption {
 	display: block;
 	width: 100%;
 	background-color: #fff;
+    box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.55);
 }
 .best-head{
 	display: block;
@@ -1531,11 +1522,12 @@ caption {
 	padding: 0;
 	margin: 0 auto;
 	position: relative;
+    min-height: calc(100vh - 210px);
 }
 .best-contents {
 	display: block;
 	float: left;
-	padding: 12px 60px 97px 24px;
+	padding: 12px 60px 0px 24px;
 	width: 100%;
 	max-width: 740px;
 	background-color: #fff;
@@ -1580,6 +1572,7 @@ caption {
 .best-footer-logo {
 	background-color: #2a2d2f;
 	width: 100%;
+    box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.55);
 }
 .best-footer-logo-content {
 	color: #404244;
