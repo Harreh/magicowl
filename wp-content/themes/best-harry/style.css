@@ -197,7 +197,7 @@ h4,
 h5,
 h6 {
 	font-family: 'montserratregular';
-	display: block;	
+	display: block;
 	margin-left: 0;
 	margin-right: 0;
 }
@@ -206,7 +206,7 @@ h1 {
 	margin-top: 1.42em;
 }
 h2 {
-	font-size: 24px;	
+	font-size: 24px;
 	margin-top: 24px;
 }
 h3 {
@@ -226,7 +226,7 @@ h6 {
 	margin-top: 1.15em;
 }
 p {
-	line-height: 24px;	
+	line-height: 24px;
 	margin-top: 10px;
 	margin-bottom: 18px;
 }
@@ -325,7 +325,7 @@ input[type="email"] {
 }
 textarea {
 	overflow: auto;
-	padding: 10px;	
+	padding: 10px;
 	min-height: 43px;
 	height: 93px;
 	min-width: 100px;
@@ -475,7 +475,7 @@ blockquote {
 	margin: 23px 0 10px 2px;
 }
 blockquote p {
-	border-left: #D6B101 5px solid;	
+	border-left: #D6B101 5px solid;
 	padding: 0 0 0 19px;
 	display: table-cell;
 	font-size: 24px;
@@ -602,7 +602,7 @@ h1.best-menu-toggle:hover {
 .best-main-navigation div ul:hover ul ul ul ul ul ul ul ul ul ul li ul {
 	left: -9999px;
 }
-.best-main-navigation div ul li:hover ul { 
+.best-main-navigation div ul li:hover ul {
 	left: -1px;
 	opacity: 1;
 	z-index: 101 !important;
@@ -612,7 +612,7 @@ h1.best-menu-toggle:hover {
 	color: black;
 	top: 40px;
 }
-/*.ie8 .best-main-navigation div ul li:hover ul { 
+/*.ie8 .best-main-navigation div ul li:hover ul {
 	right: 100%;
 	left: auto;
 }*/
@@ -631,7 +631,7 @@ h1.best-menu-toggle:hover {
 	left: 229px;
 	top: 2px;
 }
-.best-main-navigation div li:hover { 
+.best-main-navigation div li:hover {
 	border: 1px solid transparent;
 }
 .best-main-navigation div .menu-item-has-children:hover,
@@ -883,7 +883,7 @@ input.alignright {
 	color: #333;
 	font-size: 13px;
 	font-weight: 400;
-	overflow: hidden; 
+	overflow: hidden;
 	padding: 10px 10px;
 	position: absolute;
 	bottom: 5px;
@@ -926,23 +926,23 @@ a.more-link {
 	background-color: #444;
 	border-radius: 5px;
 	text-decoration: none;
-	font-family: 'montserratbold'; 
+	font-family: 'montserratbold';
 	font-size: 16px;
 	text-transform: uppercase;
 	color: #fff;
-}  
+}
 a.comment-reply-link,
 a.comment-edit-link,
-.post-edit-link, 
+.post-edit-link,
 .best-edit-link {
 	display: inline;
 	text-decoration: none;
-	font-family: 'montserratbold'; 
+	font-family: 'montserratbold';
 	font-size: 16px;
 	text-transform: uppercase;
 	color: #444;
-} 
-.post-edit-link, 
+}
+.post-edit-link,
 .best-edit-link {
 	margin: 0 10px;
 	font-size: 14px;
@@ -978,9 +978,9 @@ a.comment-edit-link:hover {
 .comment-body:after {
 	clear: both;
 }
-.comment-form [for="author"], 
-.comment-form [for="email"], 
-.comment-form [for="url"], 
+.comment-form [for="author"],
+.comment-form [for="email"],
+.comment-form [for="url"],
 .comment-form [for="comment"] {
 	float: left;
 	padding: 5px 0;
@@ -994,7 +994,7 @@ a.comment-edit-link:hover {
 .comments-title,
 .comment-list,
 .comment-reply-title,
-.comment-respond 
+.comment-respond
 .comment-form,
 .comment-respond iframe {
 	display: block;
@@ -1028,7 +1028,7 @@ a.comment-edit-link:hover {
 	width: 79%;
 	width: -webkit-calc(100% - 124px);
 	width: calc(100% - 124px);
-	word-wrap: break-word; 
+	word-wrap: break-word;
 }
 .highlander-comment {
 	margin-left: 0 !important;
@@ -1101,7 +1101,7 @@ a.comment-edit-link:hover {
 .best-next-posts-link a,
 .best-image-nav-next a  {
 	background: no-repeat url(images/newer_posts.png) 90% center;
-} 
+}
 .best-nav-previous a,
 .best-image-nav-prev a,
 .best-previous-posts-link a {
@@ -1118,7 +1118,7 @@ a.comment-edit-link:hover {
 	background-color: #fff;
 	border-radius: 5px;
 	text-decoration: none;
-	font-family: 'montserratregular'; 
+	font-family: 'montserratregular';
 	font-size: 15px;
 	text-transform: uppercase;
 	color: #35383b;
@@ -1186,7 +1186,7 @@ a.comment-edit-link:hover {
 	letter-spacing: -0.6px;
 	list-style: none;
 	font-family: 'open_sansregular';
-	font-size: 15px;	
+	font-size: 15px;
 }
 .best-sidebar ul,
 .best-witget-right-sidebar ul {
@@ -1221,7 +1221,7 @@ a.comment-edit-link:hover {
 	color: #999;
 	padding: 0;
 	list-style: none;
-	letter-spacing: -0.6px;	
+	letter-spacing: -0.6px;
 }
 .best-witget-footer-sidebar ul {
 	padding: 3px 0 0 0;
@@ -1302,7 +1302,7 @@ select {
 	float: left;
 	padding: 8px 26px 11px 10px;
 	overflow: hidden;
-	max-width: 220px; 
+	max-width: 220px;
 	height: 36px;
 }
 .best-select-button {
@@ -1341,7 +1341,7 @@ select {
 }
 .best-option:hover,
 .best-option-selected {
-	
+
 	color: #55585b;
 	background-color: #ededed;;
 }
@@ -1475,7 +1475,7 @@ caption {
 }
 #wp-calendar {
 	max-width: 250px;
-} 
+}
 /*------------End-Calendar----------------*/
 #wrapper {
 	display: block;
@@ -1487,7 +1487,6 @@ caption {
 	display: block;
 	width: 100%;
 	background-color: #fff;
-    box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.55);
 }
 .best-head{
 	display: block;
@@ -1533,7 +1532,6 @@ caption {
 	background-color: #fff;
 	border-right: #ccc 1px solid;
 	margin: 23px 0 60px 0;
-    box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.55);
 }
 .ie .best-contents, .ie8 .best-contents {
 	padding: 0;
@@ -1550,7 +1548,6 @@ caption {
 	padding: 0 24px 0 60px;
 	margin: 23px 0 60px 35px;
 	border-left: 1px solid #ccc;
-    box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.55);
 }
 #best_footer {
 	display: block;
@@ -1572,7 +1569,6 @@ caption {
 .best-footer-logo {
 	background-color: #2a2d2f;
 	width: 100%;
-    box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.55);
 }
 .best-footer-logo-content {
 	color: #404244;
@@ -1616,7 +1612,7 @@ caption {
 	margin: 23px 0 60px 0;
 }
 .breadcrumbs.home_page_title.entry-header {
-	font-size: 24px;	
+	font-size: 24px;
 	margin-top: 24px;
 	font-family: 'montserratregular';
 }
@@ -1639,7 +1635,7 @@ caption {
 }
 .portfolio_thumb img,
 .portfolio_images_gallery img {
-	padding: 0; 
+	padding: 0;
 	border: none;
 
 }
@@ -1657,7 +1653,7 @@ caption {
 	border: none;
 }
 .gllr_image_block img {
- 	border-style: none; 
+ 	border-style: none;
 }
 #content .gallery .gllr_image_block a img {
 	border: none;
@@ -1757,7 +1753,7 @@ input.dnt_paypal_button {
 	.best-custom-file-status {
 		max-width: 100%;
 		padding: 10px 0 18px 12px;
-	}	
+	}
 	form {
 		width: 100%;
 		margin: 0 auto;
@@ -1871,7 +1867,7 @@ input.dnt_paypal_button {
 		margin: 64px auto;
 		padding: 0;
 	}
-	.best-footer-sidebar-content .best-witget-right-sidebar, 
+	.best-footer-sidebar-content .best-witget-right-sidebar,
 	.best-witget-right-sidebar,
 	.best-witget-footer-sidebar,
 	.menu-menu-footer {
@@ -1927,7 +1923,7 @@ input.dnt_paypal_button {
 	.best-image-nav-prev {
 		margin: 18px 0;
 	}
-	.best-footer-sidebar-content .best-witget-right-sidebar, 
+	.best-footer-sidebar-content .best-witget-right-sidebar,
 	.best-witget-right-sidebar,
 	.best-witget-footer-sidebar {
 		max-width: 480px;
