@@ -329,7 +329,7 @@ textarea {
 	min-height: 43px;
 	height: 93px;
 	min-width: 100px;
-	width: 221px;
+	width: 500px;
 	max-width: 586px;
 	border-radius: 4px;
 	background: #ededed;
@@ -748,7 +748,7 @@ input.alignright {
 .page-content #s,
 .best-witget-right-sidebar #s,
 .best-witget-footer-sidebar #s {
-	width: 100%;
+	width: 80%;
 	max-width: 230px;
 	background-color: #f0f0f0;
 	cursor: text;
@@ -1227,7 +1227,7 @@ a.comment-edit-link:hover {
 	padding: 3px 0 0 0;
 }
 .textwidget {
-	color: #999;
+	color: #2a2d2f;
 	margin: 18px 28px 0 0;
 	font-size: 15px;
 	line-height: 23px;
