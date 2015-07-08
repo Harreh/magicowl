@@ -32,6 +32,10 @@
         <div id="wrapper">
             <div id="best_header">
                 <div class="best-head">
+                    <?php $header_image = get_header_image();
+                    if ( ! empty( $header_image ) ) { ?>
+                        <img src="<?php echo esc_url( $header_image ); ?>" class="best-custom-img-header" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" />
+                    <?php } ?>
                     <header class="best-logo">
                         <h1 class='best-site-title'><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
                         <p class='best-site-title'><?php bloginfo( 'description' ); ?></p>
@@ -50,8 +54,4 @@
                     <div class="best-clear"></div>
                 </div> <!-- .best-head -->
             </div> <!-- header -->
-            <?php $header_image = get_header_image();
-            if ( ! empty( $header_image ) ) { ?>
-                <img src="<?php echo esc_url( $header_image ); ?>" class="best-custom-img-header" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" />
-            <?php } ?>
             <div id="home">
