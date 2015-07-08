@@ -491,10 +491,6 @@ blockquote:after {
 }
 img.best-custom-img-header {
 	position: absolute;
-	top: 0;
-	z-index: 0;
-	border-radius: 0;
-	height: 226px;
 }
 /*--------End-Blockqote-------*/
 .post-data {
@@ -504,8 +500,9 @@ img.best-custom-img-header {
  /*------------Logotip----------------*/
 .best-logo {
 	float: left;
-	width: 240px;
+	width: 150px;
 	word-wrap: break-word;
+    height: 80px;
 }
 .best-logo h1 {
 	font-size: 35px;
@@ -1484,22 +1481,23 @@ caption {
 	max-width: 250px;
 }
 /*------------End-Calendar----------------*/
+
 #wrapper {
 	display: block;
 	padding: 0;
 	margin: 0;
 	border: 0;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 500px);
 }
 #best_header {
 	display: block;
 	width: 100%;
-	background-color: #fff;
 }
 .best-head{
 	display: block;
 	width: 100%;
 	max-width: 1188px;
-	padding: 16px 24px 18px;
+	padding: 16px 0 18px;
 	margin: 0 auto;
 	position: relative;
 	z-index: 2;
@@ -1528,7 +1526,7 @@ caption {
 	padding: 0;
 	margin: 0 auto;
 	position: relative;
-    min-height: calc(100vh - 210px);
+    min-height: calc(100vh - 208px);
 }
 .best-contents {
 	display: block;
@@ -1538,6 +1536,8 @@ caption {
 	max-width: 740px;
 	background-color: #fff;
 	margin: 30px 0 60px 0;
+    border: 1px solid #F0F0F0;
+    border-radius: 2px;
 }
 .ie .best-contents, .ie8 .best-contents {
 	padding: 0;
@@ -1553,6 +1553,8 @@ caption {
 	background-color: #fff;
 	padding: 0 24px 0 60px;
 	margin: 30px 0 60px 35px;
+    border: 1px solid #f0f0f0;
+    border-radius: 2px;
 }
 #best_footer {
 	display: block;
@@ -1727,9 +1729,10 @@ input.dnt_paypal_button {
 	}
 	.content-area,
 	.best-contents{
-		max-width: 70%;
+        max-width: 65%;
 		padding: 2% auto;
 		margin: 0 auto;
+        margin-right: 20px
 	}
 	#home {
 		width: auto;
@@ -1812,6 +1815,11 @@ input.dnt_paypal_button {
 		list-style: none;
 		list-style-type: none;
 	}
+    .menu-item {
+        border: none;
+        background: none;
+        box-shadow: none;
+    }
 }
 @media screen and (max-width: 768px) {
 	#best_header {
