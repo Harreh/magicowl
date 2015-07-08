@@ -1537,7 +1537,6 @@ caption {
 	width: 100%;
 	max-width: 740px;
 	background-color: #fff;
-	border-right: #ccc 1px solid;
 	margin: 30px 0 60px 0;
 }
 .ie .best-contents, .ie8 .best-contents {
@@ -1554,7 +1553,6 @@ caption {
 	background-color: #fff;
 	padding: 0 24px 0 60px;
 	margin: 30px 0 60px 35px;
-	border-left: 1px solid #ccc;
 }
 #best_footer {
 	display: block;
