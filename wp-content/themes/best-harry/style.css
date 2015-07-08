@@ -492,6 +492,10 @@ blockquote:after {
 img.best-custom-img-header {
 	position: absolute;
 }
+
+a.best-custom-img-header {
+    position: initial;
+}
 /*--------End-Blockqote-------*/
 .post-data {
 	color: #aaa;
@@ -1481,7 +1485,6 @@ caption {
 	max-width: 250px;
 }
 /*------------End-Calendar----------------*/
-
 #wrapper {
 	display: block;
 	padding: 0;
