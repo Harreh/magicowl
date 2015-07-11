@@ -504,7 +504,7 @@ a.best-custom-img-header {
  /*------------Logotip----------------*/
 .best-logo {
 	float: left;
-	width: 150px;
+	width: 240px;
 	word-wrap: break-word;
     height: 80px;
 }
@@ -525,12 +525,11 @@ a.best-custom-img-header {
 /*------------End-Logotip----------------*/
 /*------------Nav-Menu-Header------------------*/
 .best-main-navigation {
-	display: inline-block;
-	float: right;
-	z-index: 100;
 	text-transform: uppercase;
-	margin-right: 89px;
 	line-height: 15px;
+    margin: 0 auto;
+    width: 100%;
+    background: #2A2D2F;
 }
 .best-assistive-text.skip-link {
 	display: none;
@@ -550,30 +549,30 @@ h1.best-menu-toggle:hover {
 	color: #D6B101;
 }
 .best-main-navigation div ul {
-	margin: 0;
+	margin: 0 auto;
+    max-width: 1188px;
 }
 .best-main-navigation div li {
 	display: inline-block;
 	margin: 0;
 	position: relative;
-	float: left;
-	padding: 7px 10px 10px 10px;
-	border: 1px solid transparent;
-}
-.best-main-navigation div li {
-    margin-left: 10px;
+    padding: 0;
 }
 .best-main-navigation div li a {
-	padding: 0;
+	padding: 7px 10px 10px 10px;
 	color: #F0F0F0;
 	font-size: 14px;
 	font-family: 'montserratregular';
 	width: 100%;
-	display: inline;
+	display: block;
 }
-.best-main-navigation div li a:hover {
+.best-main-navigation div li:hover {
 	color: #F0F0F0;
-    border-bottom: 3px solid #D6B101;
+    border-bottom: 3px solid #D6B101!important;
+}
+.best-main-navigation div li:hover {
+    background: rgb(72, 81, 86);
+
 }
 .best-main-navigation div ul ul li {
 	width: 100%;
@@ -585,8 +584,6 @@ h1.best-menu-toggle:hover {
 }
 .best-main-navigation div ul li ul {
 	margin-top: 0;
-	border-radius: 3px;
-	border: 1px solid #CCC;
 	list-style-type: none;
 	position: absolute;
 	left: -9999px;
@@ -617,6 +614,7 @@ h1.best-menu-toggle:hover {
 	color: black;
 	top: 40px;
 }
+/* TODO: this is likely now out-datred code */
 /*.ie8 .best-main-navigation div ul li:hover ul {
 	right: 100%;
 	left: auto;
@@ -635,9 +633,6 @@ h1.best-menu-toggle:hover {
 .best-main-navigation div ul ul ul ul ul ul ul ul li:hover ul{
 	left: 229px;
 	top: 2px;
-}
-.best-main-navigation div li:hover {
-	border: 1px solid transparent;
 }
 .best-main-navigation div .menu-item-has-children:hover,
 .best-main-navigation div .page_item_has_children:hover {
@@ -674,20 +669,13 @@ h1.best-menu-toggle:hover {
 .best-main-navigation div .current-menu-item > a,
 .best-main-navigation div .current-menu-ancestor > a {
 	color: #D6B101 !important;
-	border-bottom: 3px solid #D6B101;
 	padding: 0 auto;
 }
 
-.current-menu-item a {
+.current-menu-item {
     color: #D6B101;
-    border-bottom: 3px solid #D6B101;
-}
-
-.menu-item {
-    border: 1px solid rgb(42, 45, 47);
-    border-radius: 2px;
-    background: rgb(42, 45, 47);
-    box-shadow: 0 0 10px -2px rgba(0,0,0,0.75);
+    background: rgb(72, 81, 86);
+	border-bottom: 3px solid #D6B101;
 }
 
 /*------------End-Nav-Menu-Hrader----------------*/
@@ -1495,6 +1483,8 @@ caption {
 #best_header {
 	display: block;
 	width: 100%;
+    background: #DBA700;
+    height: 180px;
 }
 .best-head{
 	display: block;
@@ -1539,8 +1529,6 @@ caption {
 	max-width: 740px;
 	background-color: #fff;
 	margin: 30px 0 60px 0;
-    border: 1px solid #F0F0F0;
-    border-radius: 2px;
 }
 .ie .best-contents, .ie8 .best-contents {
 	padding: 0;
@@ -1556,8 +1544,6 @@ caption {
 	background-color: #fff;
 	padding: 0 24px 0 60px;
 	margin: 30px 0 60px 35px;
-    border: 1px solid #f0f0f0;
-    border-radius: 2px;
 }
 #best_footer {
 	display: block;
@@ -1989,4 +1975,14 @@ input.dnt_paypal_button {
 
 .best-contents section {
     background-color: white;
+}
+
+@media screen and (max-width: 769px) {
+    .menu-item {
+        display: block!important;
+        border-bottom: 3px solid #2A2D2F;
+    }
+    #menu-main-menu {
+        padding-left: 0;
+    }
 }
