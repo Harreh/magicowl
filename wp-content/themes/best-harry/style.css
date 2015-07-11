@@ -1976,3 +1976,7 @@ input.dnt_paypal_button {
 	}
 }
 /*-----------------End-@Media-------------------*/
+
+.menu-toggle {
+    display: block;
+}

@@ -104,11 +104,10 @@
             $("[name='" + best_val + "']").text($(this).best_val().split('\\').pop())
         });
         //Handles toggling the main navigation menu for small screens.
-        var best_head = $('.best-head'),
-            timeout = false;
+        var timeout = false;
         $.fn.smallMenu = function() {
             $('.best-menu-toggle').unbind('click').click(function() {
-                $('.menu').toggle();
+                $('.menu').toggleClass('menu-toggle');
             });
         };
         // Check viewport width on first load.
@@ -116,14 +115,11 @@
             $.fn.smallMenu();
         // Check viewport width when user resizes the browser window.
         $(window).resize(function() {
-            var best_browserWidth = $(window).width();
             if (false !== timeout)
                 clearTimeout(timeout);
             timeout = setTimeout(function() {
-                if (best_browserWidth <= 810) {
+                if ($(this).width() <= 810) {
                     $.fn.smallMenu();
-                } else {
-                    $('.menu').css('display', 'block');
                 }
             }, 200);
         });
