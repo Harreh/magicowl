@@ -40,6 +40,7 @@
                         <h1 class='best-site-title'><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
                         <p class='best-site-title'><?php bloginfo( 'description' ); ?></p>
                     </header>
+                    <h1 id="best-menu-button" class="best-menu-toggle"><i class="fa fa-bars fa-lg">&nbsp;</i><?php _e( 'Menu', 'best' ); ?></h1>
                     <div class="best-clear"></div>
                 </div>
             </div>

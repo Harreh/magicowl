@@ -2,6 +2,10 @@
     // Inside of this function, $() will work as an alias for jQuery()
     // and other libraries also using $ will not be accessible under this shortcut
     $('document').ready(function() {
+        $('#best-menu-button').mousedown(function(e) {
+            e.preventDefault();
+        });
+
         $('input:checked').removeAttr('checked');
         $('input:file').val('');
         // $( this ).find( '.best-contents, .best-sidebar' ).wrapAll( "<div id='main'></div>" );
@@ -103,15 +107,12 @@
         var best_head = $('.best-head'),
             timeout = false;
         $.fn.smallMenu = function() {
-            best_head.find('.best-nav').removeClass('best-main-navigation').addClass('best-main-small-navigation');
-            best_head.find('.best-nav h1').removeClass('best-assistive-text').addClass('best-menu-toggle');
             $('.best-menu-toggle').unbind('click').click(function() {
-                best_head.find('.menu').toggle();
-                $(this).toggleClass('toggled-on');
+                $('.best-nav').toggle();
             });
         };
         // Check viewport width on first load.
-        if ($(window).width() <= 810)
+        if ($(window).width() <= 800)
             $.fn.smallMenu();
         // Check viewport width when user resizes the browser window.
         $(window).resize(function() {
@@ -119,12 +120,10 @@
             if (false !== timeout)
                 clearTimeout(timeout);
             timeout = setTimeout(function() {
-                if (best_browserWidth <= 810) {
+                if (best_browserWidth <= 800) {
                     $.fn.smallMenu();
                 } else {
-                    best_head.find('.best-nav').removeClass('best-main-small-navigation').addClass('best-main-navigation');
-                    best_head.find('.best-nav h1').removeClass('best-menu-toggle').addClass('best-assistive-text');
-                    best_head.find('.menu').removeAttr('style');
+                    $('.best-nav').css('display', 'block');
                 }
             }, 200);
         });
