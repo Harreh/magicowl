@@ -33,25 +33,17 @@
             <div id="best_header">
                 <div class="best-head">
                     <?php $header_image = get_header_image();
-                    if ( ! empty( $header_image ) ) { ?>
+                    if (!empty($header_image)): ?>
                         <img src="<?php echo esc_url( $header_image ); ?>" class="best-custom-img-header" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" />
-                    <?php } ?>
+                    <?php endif; ?>
                     <header class="best-logo">
                         <h1 class='best-site-title'><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
                         <p class='best-site-title'><?php bloginfo( 'description' ); ?></p>
-                    </header> <!-- .best-logo -->
-                    <nav class="best-nav best-main-navigation">
-                        <h1 class="best-assistive-text"><?php _e( 'Menu', 'best' ); ?></h1>
-                        <div class="best-assistive-text skip-link">
-                            <a href="#content" title="<?php esc_attr_e( 'Skip to content', 'best' ); ?>"><?php _e( 'Skip to content', 'best' ); ?></a>
-                        </div> <?php
-                        wp_nav_menu(
-                            array(
-                                'theme_location' => 'header-menu'
-                            )
-                        ); ?>
-                    </nav> <!-- .best-nav -->
+                    </header>
                     <div class="best-clear"></div>
-                </div> <!-- .best-head -->
-            </div> <!-- header -->
+                </div>
+            </div>
+            <nav class="best-nav best-main-navigation">
+                <?php wp_nav_menu(array('theme_location' => 'header-menu')); ?>
+            </nav>
             <div id="home">
