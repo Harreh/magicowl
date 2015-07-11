@@ -108,11 +108,11 @@
             timeout = false;
         $.fn.smallMenu = function() {
             $('.best-menu-toggle').unbind('click').click(function() {
-                $('.best-nav').toggle();
+                $('.menu').toggle();
             });
         };
         // Check viewport width on first load.
-        if ($(window).width() <= 800)
+        if ($(window).width() <= 810)
             $.fn.smallMenu();
         // Check viewport width when user resizes the browser window.
         $(window).resize(function() {
@@ -120,10 +120,10 @@
             if (false !== timeout)
                 clearTimeout(timeout);
             timeout = setTimeout(function() {
-                if (best_browserWidth <= 800) {
+                if (best_browserWidth <= 810) {
                     $.fn.smallMenu();
                 } else {
-                    $('.best-nav').css('display', 'block');
+                    $('.menu').css('display', 'block');
                 }
             }, 200);
         });

@@ -1763,6 +1763,9 @@ input.dnt_paypal_button {
     }
 }
 @media screen and (max-width: 820px) {
+    .menu {
+        display: none;
+    }
     .menu-item {
         display: block!important;
         border-bottom: 3px solid #2A2D2F;
@@ -1783,7 +1786,6 @@ input.dnt_paypal_button {
 		margin: -1px auto;
 		padding: 0 auto;
 		float: none;
-		display: none;
 	}
 	.best-main-small-navigation {
 		bottom: 0;
