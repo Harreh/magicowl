@@ -149,9 +149,8 @@ nav {
 }
 img {
 	height: auto;
-	width: auto; /* ie8 */
+	width: auto\9; /* ie8 */
 	max-width: 100%;
-	border-radius: 5px;
 }
 embed,
 object,
@@ -491,6 +490,7 @@ blockquote:after {
 }
 img.best-custom-img-header {
 	position: absolute;
+    padding: 0 15px;
 }
 
 a.best-custom-img-header {
@@ -570,7 +570,7 @@ a.best-custom-img-header {
     color: #f0f0f0;
 }
 
-.best-main-navigation div li:hover a {
+.best-main-navigation div li:hover > a {
 	color: #F6B52D;
 }
 .best-main-navigation div li:hover {
@@ -1668,8 +1668,7 @@ input.dnt_paypal_button {
 		width: auto;
 		padding: 0 auto;
 	}
-	.best-head,
-	fieldset ,
+	fieldset,
 	#best_footer_sidebar {
 		width: auto;
 		margin: 0 auto;
@@ -1823,7 +1822,6 @@ input.dnt_paypal_button {
 	.best-logo p {
 		margin: 0 auto;
 	}
-	.best-head,
 	.menu-menu-header {
 		margin: 0 auto;
 		padding: 0 auto;
