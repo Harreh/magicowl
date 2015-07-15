@@ -185,6 +185,11 @@ hr {
 a {
 	text-decoration: none;
 	color: rgb(68,68,68);
+    -o-transition: color 0.2s ease-out;
+    -ms-transition: color 0.2s ease-out;
+    -moz-transition: color 0.2s ease-out;
+    -webkit-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
 }
 a:hover{
 	color: #F6B52D;
@@ -557,11 +562,6 @@ a.best-custom-img-header {
     color: white;
 }
 .best-main-navigation div li a {
-    -o-transition: color 0.2s ease-out;
-    -ms-transition: color 0.2s ease-out;
-    -moz-transition: color 0.2s ease-out;
-    -webkit-transition: color 0.2s ease-out;
-    transition: color 0.2s ease-out;
 	padding: 7px 10px 10px 10px;
 	font-size: 14px;
 	font-family: 'montserratregular';
@@ -1216,6 +1216,9 @@ a.comment-edit-link:hover {
 	font-family: 'montserratbold';
 	text-transform: uppercase;
     color: #F6B52D;
+}
+.best-footer-logo-content-home a:hover {
+    color: #f0f0f0;
 }
 .best-footer-logo-content-by {
 	margin: 15px 0 9px 0;
@@ -1976,6 +1979,11 @@ input.dnt_paypal_button {
 .accordion-title {
     background: rgb(72, 81, 86);
     cursor: pointer;
+    -o-transition: color, background-color 0.2s ease-out;
+    -ms-transition: color, background-color 0.2s ease-out;
+    -moz-transition: color, background-color 0.2s ease-out;
+    -webkit-transition: color, background-color 0.2s ease-out;
+    transition: color, background-color 0.2s ease-out;
 }
 .accordion-title h3 {
     margin-left: 15px;
@@ -1993,25 +2001,43 @@ input.dnt_paypal_button {
 .accordion-title-purple {
     background: #9B59B6;
 }
+.accordion-title-purple:hover {
+    color: #9B59B6;
+}
 
 .accordion-title-blue {
     background: #597DB6;
+}
+.accordion-title-blue:hover {
+    color: #597DB6;
 }
 
 .accordion-title-green {
     background: #A5C261;
 }
+.accordion-title-green:hover {
+    color: #A5C261;
+}
 
 .accordion-title-red {
     background-color: #DA4939;
+}
+.accordion-title-red:hover {
+    color: #DA4939
 }
 
 .accordion-title-orange {
     background-color: #F29333;
 }
+.accordion-title-orange:hover {
+    color: #F29333;
+}
 
 .best-footer-logo-content-by .fa {
     color: #F6B52D;
+}
+.best-footer-logo-content-by .fa:hover {
+    cursor: pointer;
 }
 
 .best-footer-logo-content-by .fa-inverse {
