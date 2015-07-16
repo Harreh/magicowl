@@ -30,7 +30,7 @@
                                 <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
-                        <a id="footer-phone-link">
+                        <a href="tel:07801575661">
                             <span class="fa-stack fa-2x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-mobile fa-lg fa-stack-1x fa-inverse"></i>
