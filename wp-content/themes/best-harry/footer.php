@@ -17,6 +17,9 @@
 					<div class="best-footer-logo-content-home">
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
 					</div> <!-- best-footer-logo-content-home -->
+                    <div class="best-footer-extra">
+                        <a href="<?php echo esc_url( home_url( '/privacy-policy' ) ); ?>">Privacy Policy</a>
+                    </div>
 					<footer class="best-footer-logo-content-by">
                         <a href="https://www.facebook.com/magicowldiscos">
                             <span class="fa-stack fa-2x">
