@@ -1885,6 +1885,10 @@ input.dnt_paypal_button {
 	}
 }
 @media screen and (max-width: 640px) {
+    .best-footer-extra {
+        float: none!important;
+        margin: 0!important;
+    }
 	.best-custom-file-status {
 		width: 100%;
 	}
