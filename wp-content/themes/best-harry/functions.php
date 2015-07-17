@@ -35,8 +35,8 @@ function best_setup() {
 	add_theme_support( "custom-header", 
 		array(
 			'default-image'				=> '',
-			'width'						=> 740,
-			'height'					=> 100,
+			'width'						=> 800,
+			'height'					=> 150,
 			'flex-width'				=> false,
 			'flex-height'				=> false,
 			'random-default'			=> false,

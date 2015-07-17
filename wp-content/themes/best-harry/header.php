@@ -46,10 +46,6 @@
                     if (!empty($header_image)): ?>
                         <img src="<?php echo esc_url( $header_image ); ?>" class="best-custom-img-header" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" />
                     <?php endif; ?>
-                    <header class="best-logo">
-                        <h1 class='best-site-title'><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
-                        <p class='best-site-title'><?php bloginfo( 'description' ); ?></p>
-                    </header>
                     <h1 id="best-menu-button" class="best-menu-toggle"><i class="fa fa-bars fa-lg">&nbsp;</i><?php _e( 'Menu', 'best' ); ?></h1>
                     <div class="best-clear"></div>
                 </div>
