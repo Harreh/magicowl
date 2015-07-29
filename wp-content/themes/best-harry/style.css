@@ -192,7 +192,7 @@ a {
     transition: color 0.2s ease-out;
 }
 a:hover{
-	color: #F6B52D;
+	color: #D3B300;
 }
 h1,
 h2,
@@ -481,7 +481,7 @@ blockquote {
 	margin: 23px 0 10px 2px;
 }
 blockquote p {
-	border-left: #F6B52D 5px solid;
+	border-left: #D3B300 5px solid;
 	padding: 0 0 0 19px;
 	display: table-cell;
 	font-size: 24px;
@@ -533,7 +533,7 @@ a.best-custom-img-header {
 	line-height: 15px;
     margin: 0 auto;
     width: 100%;
-    background: #F6B52D;
+    background: #D3B300;
 }
 .best-assistive-text.skip-link {
 	display: none;
@@ -571,7 +571,7 @@ a.best-custom-img-header {
 }
 
 .best-main-navigation div li:hover > a {
-	color: #F6B52D;
+	color: #D3B300;
 }
 .best-main-navigation div li:hover {
     border-bottom: 3px solid #2A2D2F!important;
@@ -644,18 +644,18 @@ a.best-custom-img-header {
 .best-main-navigation div .current_page_ancestor > a,
 .best-main-navigation div .current-menu-item > a,
 .best-main-navigation div .current-menu-ancestor > a {
-	color: #F6B52D !important;
+	color: #D3B300 !important;
 	padding: 0 auto;
 }
 
 .current-menu-item {
-    color: #F6B52D;
+    color: #D3B300;
     background: rgb(72, 81, 86);
     border-bottom: 3px solid #2A2D2F!important;
 }
 
 .menu-item {
-    border-bottom: 3px solid #F6B52D;;
+    border-bottom: 3px solid #D3B300;;
 }
 
 /*------------End-Nav-Menu-Hrader----------------*/
@@ -925,11 +925,11 @@ a.comment-edit-link,
 }
 .portfolio_content .read_more:hover a,
 a.more-link:hover {
-	background-color: #F6B52D;
+	background-color: #D3B300;
 }
 a.comment-reply-link:hover,
 a.comment-edit-link:hover {
-	color: #F6B52D;
+	color: #D3B300;
 }
 .best-nav-previous,
 .best-nav-next {
@@ -1063,7 +1063,7 @@ a.comment-edit-link:hover {
 	text-decoration: none;
 }
 .best-tags a:hover {
-	color: #F6B52D;
+	color: #D3B300;
 }
 /*----------Newer-Post--Ower-Post----------*/
 .best-image-nav-prev,
@@ -1153,7 +1153,7 @@ a.comment-edit-link:hover {
 }
 .best-sidebar a:hover,
 .best-witget-right-sidebar  a:hover {
-	color: #F6B52D;
+	color: #D3B300;
 }
 .recentcomments,
 .best-sidebar li,
@@ -1218,7 +1218,7 @@ a.comment-edit-link:hover {
 	font-size: 24px;
 	font-family: 'montserratbold';
 	text-transform: uppercase;
-    color: #F6B52D;
+    color: #D3B300;
 }
 .best-footer-logo-content-home a:hover {
     color: #f0f0f0;
@@ -1433,7 +1433,7 @@ input[type="submit"] {
 input[type="reset"]:hover,
 input[type="button"]:hover,
 input[type="submit"]:hover {
-	background: #F6B52D;
+	background: #D3B300;
 }
 caption {
 	margin-bottom: 14px;
@@ -1652,7 +1652,7 @@ caption {
 	color: rgb(68,68,68);
 }
 .item_title a:hover {
-	color: #F6B52D;
+	color: #D3B300;
 }
 .jbbrd_frontend_table_sendmail tr,
 .jbbrd_frontend_table_sendmail td {
@@ -1995,7 +1995,7 @@ input.dnt_paypal_button {
 }
 .accordion-title:hover {
     background: rgb(72, 81, 86);
-    color: #F6B52D;
+    color: #D3B300;
 }
 .accordion-content {
     padding: 10px;
@@ -2037,7 +2037,7 @@ input.dnt_paypal_button {
 }
 
 .best-footer-logo-content-by .fa {
-    color: #F6B52D;
+    color: #D3B300;
 }
 .best-footer-logo-content-by .fa:hover {
     cursor: pointer;
