@@ -496,8 +496,6 @@ blockquote:after {
 	padding: 1px 0 0 23px;
 }
 img.best-custom-img-header {
-	position: absolute;
-    padding: 0 15px;
 }
 
 a.best-custom-img-header {
@@ -535,7 +533,7 @@ a.best-custom-img-header {
 	line-height: 15px;
     margin: 0 auto;
     width: 100%;
-    background: #2A2D2F;
+    background: #F6B52D;
 }
 .best-assistive-text.skip-link {
 	display: none;
@@ -549,7 +547,7 @@ a.best-custom-img-header {
 	text-transform: none;
 	color: rgb(68,68,68);
 	cursor: pointer;
-    margin: 120px 0 10px 15px;
+    margin: 0;
 }
 
 .best-main-navigation div ul {
@@ -569,15 +567,18 @@ a.best-custom-img-header {
 	font-family: 'montserratregular';
 	width: 100%;
 	display: block;
-    color: #f0f0f0;
+    color: #2A2D2F;
 }
 
 .best-main-navigation div li:hover > a {
 	color: #F6B52D;
 }
 .best-main-navigation div li:hover {
-    border-bottom: 3px solid #F6B52D!important;
+    border-bottom: 3px solid #2A2D2F!important;
     background: rgb(72, 81, 86);
+}
+.best-main-navigation div ul ul li a {
+    color: #f0f0f0;
 }
 .best-main-navigation div ul ul li {
     background: #2A2D2F;
@@ -650,11 +651,11 @@ a.best-custom-img-header {
 .current-menu-item {
     color: #F6B52D;
     background: rgb(72, 81, 86);
-	border-bottom: 3px solid #F6B52D!important;
+    border-bottom: 3px solid #2A2D2F!important;
 }
 
 .menu-item {
-    border-bottom: 3px solid #2A2D2F;;
+    border-bottom: 3px solid #F6B52D;;
 }
 
 /*------------End-Nav-Menu-Hrader----------------*/
@@ -1148,7 +1149,7 @@ a.comment-edit-link:hover {
 }
 .best-sidebar a,
 .best-witget-right-sidebar  a {
-	color: #DA4939;
+    color: rgb(68,68,68);
 }
 .best-sidebar a:hover,
 .best-witget-right-sidebar  a:hover {
@@ -1460,9 +1461,8 @@ caption {
 #best_header {
 	display: block;
 	width: 100%;
-    height: 180px;
-    background-color: #F6B52D;
-    background-image: url(images/background-egypt-darken-fade.png);
+    height: 241px;
+    background-color: #485156;
 }
 #best_header:after {
     content: "";
@@ -1479,8 +1479,6 @@ caption {
 	display: block;
 	width: 100%;
 	max-width: 1188px;
-	padding: 16px 0 0 0;
-	margin: 0 auto;
 	position: relative;
 	z-index: 2;
 }
