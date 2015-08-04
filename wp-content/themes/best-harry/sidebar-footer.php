@@ -9,11 +9,12 @@ if ( ! is_active_sidebar( 'best_footer_sidebar' ) ) {
 	return;
 }
 ?>
-<aside id="best_footer_sidebar">
-	<div class="best-footer-sidebar-content"> <?php 
-		if ( is_active_sidebar( 'best_footer_sidebar' ) ) { 
+<div id="best_footer_sidebar">
+	<div class="best-footer-sidebar-content">
+        <h3>Subscribe to our newsletter</h3>
+        <?php if ( is_active_sidebar( 'best_footer_sidebar' ) ) {
 			dynamic_sidebar( 'best_footer_sidebar' ); 
 		} ?>
 		<div class="best-clear"></div>
 	</div> <!-- best-footer-sidebar-content -->
-</aside> <!-- footer_sidebar -->
+</div> <!-- footer_sidebar -->
