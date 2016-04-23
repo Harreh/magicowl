@@ -100,7 +100,7 @@ function get_footer( $name = null ) {
  * @param string $name The name of the specialised sidebar.
  */
 function get_sidebar( $name = null ) {
-	/**
+    /**
 	 * Fires before the sidebar template file is loaded.
 	 *
 	 * The hook allows a specific sidebar template file to be used in place of the

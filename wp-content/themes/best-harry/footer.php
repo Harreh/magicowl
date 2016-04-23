@@ -10,17 +10,21 @@
 ?>
 			<div class="best-clear"></div>
 		</div>
-		<div id="best_footer"> <?php 
-			get_sidebar( 'footer' ); ?>
+		<div id="best_footer">
 			<div class="best-footer-logo">
 				<div class="best-footer-logo-content">
-					<div class="best-footer-logo-content-home">
-						<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
-					</div>
-                    <div class="best-footer-extra">
-                        <a href="<?php echo esc_url( home_url( '/privacy-policy' ) ); ?>">Privacy Policy</a>
+                    <div>
+                        <div class="best-footer-logo-content-home">
+                            <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?><span style="font-size: medium;">&copy;</span></a>
+                        </div>
+                        <div class="best-footer-extra">
+                            <a href="<?php echo esc_url( home_url( '/privacy-policy' ) ); ?>">Privacy Policy</a>
+                        </div>
+                        <footer class="best-footer-logo-content-by">
+                            <?php get_sidebar( 'footer' ); ?>
+                        </footer>
                     </div>
-					<footer class="best-footer-logo-content-by">
+                    <div id="fa-footer-container">
                         <a href="https://www.facebook.com/magicowldiscos">
                             <span class="fa-stack fa-2x">
                               <i class="fa fa-circle fa-stack-2x"></i>
@@ -39,7 +43,7 @@
                                 <i class="fa fa-mobile fa-lg fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
-					</footer>
+                    </div>11
 				</div>
 				<div class="best-clear"></div>
 			</div>
